@@ -26,9 +26,11 @@ const About = () => {
             的角色。
           </p>
         </article>
-        <div className='mt-8 md:mt-0 md:px-8 w-full md:w-5/12'>
-          <div className='overflow-hidden rounded-3xl border-0 border-yellow-400 text-primary flex justify-center items-center'>
-            <img src={cover} />
+        <div className='mt-8 md:mt-0 md:px-8 px-4 w-full md:w-5/12'>
+          <div className=' relative after:absolute after:left-3 after:top-3 after:w-full after:h-full after:rounded-2xl after:border-2 after:border-yellow-400'>
+            <div className='overflow-hidden rounded-2xl'>
+              <img src={cover} />
+            </div>
           </div>
         </div>
       </div>
